@@ -1,4 +1,4 @@
-#2174¹ø ·Îº¿ ½Ã¹Ä·¹ÀÌ¼Ç
+#2174ë²ˆ ë¡œë´‡ ì‹œë®¬ë ˆì´ì…˜
 #GOLD 5
 A,B = map(int,input().split())
 N,M = map(int,input().split())

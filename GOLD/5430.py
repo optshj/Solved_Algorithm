@@ -1,4 +1,4 @@
-#5430¹ø AC
+#5430ë²ˆ AC
 #GOLD 5
 import sys
 from collections import deque

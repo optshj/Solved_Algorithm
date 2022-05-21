@@ -1,4 +1,4 @@
-#1011¹ø Fly me to the Alpha Centauri
+#1011ë²ˆ Fly me to the Alpha Centauri
 #GOLD 5
 import sys
 import math

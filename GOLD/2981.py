@@ -1,4 +1,4 @@
-#2981¹ø °Ë¹®
+#2981ë²ˆ ê²€ë¬¸
 #GOLD 5
 import sys
 import math

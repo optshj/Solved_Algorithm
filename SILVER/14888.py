@@ -1,7 +1,7 @@
-# ¹éÁØ 14888¹ø ¿¬»êÀÚ ³¢¿ö³Ö±â
+# ë°±ì¤€ 14888ë²ˆ ì—°ì‚°ìž ë¼ì›Œë„£ê¸°
 # SILVER 1
-# ¹®Á¦ À¯Çü : ºê·çÆ®Æ÷½º ¾Ë°í¸®Áò,¹éÆ®·¡Å·
-# ¸Þ¸ð¸® : 30840 KB, ½Ã°£ : 96 ms, ¾ð¾î Python3, ÄÚµå±æÀÌ 778B
+# ì•Œê³ ë¦¬ì¦˜ ë¶„ë¥˜ : ë¸Œë£¨íŠ¸í¬ìŠ¤ ì•Œê³ ë¦¬ì¦˜,ë°±íŠ¸ëž˜í‚¹
+# ë©”ëª¨ë¦¬ : 30840 KB, ì‹œê°„ : 96 ms, ì–¸ì–´ Python3, ì½”ë“œê¸¸ì´ 778B
 
 N = int(input())
 li = list(map(int,input().split()))

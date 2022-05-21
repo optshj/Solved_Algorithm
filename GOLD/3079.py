@@ -1,4 +1,4 @@
-#3079¹ø ÀÔ±¹½É»ç
+#3079ë²ˆ ìž…êµ­ì‹¬ì‚¬
 #GOLD 5
 import sys
 input_list = input().split()
@@ -21,9 +21,9 @@ while left <= right:
     cnt = 0
     for i in range(N):
         cnt += mid // data_time[i]
-    if cnt < M:                                 #mid °ª ±âÁØÀ¸·Î °è»êÇÏ¸é ´Ù Ã³¸®ÇÏ±â¿¡ ½Ã°£ÀÌ ºÎÁ·ÇÔ;
+    if cnt < M:                                 
         left = mid + 1
-    else:                                       #mid °ª ±âÁØÀ¸·Î °è»êÇÏ¸é ´Ù Ã³¸® °¡´É; Á¤´äÀÇ ÈÄº¸°¡ µÊ
+    else:                                      
         right = mid - 1
         if mid < ans:
             ans = mid

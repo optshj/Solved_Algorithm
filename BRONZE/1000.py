@@ -1,4 +1,4 @@
-#1000¹ø A+B
+#1000ë²ˆ A+B
 #BRONZE 5
 A,B=map(int,input().split())
 print(A+B)

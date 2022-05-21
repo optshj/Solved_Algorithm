@@ -1,4 +1,4 @@
-#9663¹ø N-Queen
+#9663ë²ˆ N-Queen
 #GOLD 5
 import sys
 N = int(sys.stdin.readline())

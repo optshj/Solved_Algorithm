@@ -1,4 +1,4 @@
-#1009¹ø ºÐ»êÃ³¸®
+#1009ï¿½ï¿½ ï¿½Ð»ï¿½Ã³ï¿½ï¿½
 #BRONZE 3
 import sys
 input = sys.stdin.readline
