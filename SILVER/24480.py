@@ -1,8 +1,8 @@
-# 백준 244729번 알고리즘 수업 - 깊이 우선 탐색 1
+# 백준 24480번 알고리즘 수업 - 깊이 우선 탐색 2
 # SILVER 2
 # 알고리즘 분류 : 그래프 이론, 그래프 탐색, 정렬, 깊이 우선 탐색
-# 메모리 : 171836KB, 시간 : 680ms, 언어 : Python3, 코드 길이 : 462B
-import sys
+# 메모리 : 173884KB, 시간 : 804ms, 언어 : Python3, 코드 길이 : 475B
+import sys 
 sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 N,M,R = map(int,input().split())
@@ -19,7 +19,7 @@ def dfs(v):
     cnt += 1
     check[v] = 1
     count[v] = cnt
-    for i in sorted(g[v]) :
+    for i in sorted(g[v],reverse=True) :
         if not check[i] :
             dfs(i)
 dfs(R)
