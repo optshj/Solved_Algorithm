@@ -7,7 +7,6 @@ li = [list(map(int,input())) for _ in range(N)]
 k = deque()
 m = [[-1,0],[1,0],[0,-1],[0,1]]
 def bfs(x,y) :
-    global cnt
     k.append((x,y))
     while k :
         x,y = k.popleft()
