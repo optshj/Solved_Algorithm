@@ -1,0 +1,30 @@
+# 백준 11657번 타임머신
+# GOLD 4
+# 알고리즘 분류 : 그래프 이론, 벨만-포드
+import sys
+INF = sys.maxsize
+N,M = map(int,input().split())
+dis = [INF]*(N+1)
+g = []
+check = 0
+for _ in range(M) :
+    a,b,c = map(int,input().split())
+    g.append([a,b,c])
+dis[1] = 0
+for i in range(N) :
+    for j in range(M) :
+        cur = g[j][0]
+        next_node = g[j][1]
+        cost = g[j][2]
+        if dis[cur] != INF and dis[next_node] > dis[cur] + cost :
+            dis[next_node] = dis[cur] + cost
+            if i == N-1 :
+                check = 1
+if check :
+    print(-1)
+    exit()
+for i in range(2,N+1) :
+    if dis[i] == INF :
+        print(-1)
+    else :
+        print(dis[i],end='\n')
